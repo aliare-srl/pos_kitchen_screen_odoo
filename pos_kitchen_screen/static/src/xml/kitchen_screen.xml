@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="KitchenScreen" owl="1">
+        <div class="kitchen-screen">
+            <div class="kitchen-controls">
+                <button class="sound-toggle" t-on-click="toggleSound">
+                    <i t-if="state.soundEnabled" class="fa fa-volume-up"/>
+                    <i t-else="" class="fa fa-volume-off"/>
+                </button>
+            </div>
+            <div class="order-list">
+                <!-- Order display layout -->
+            </div>
+        </div>
+    </t>
+</templates> 
